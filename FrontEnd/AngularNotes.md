@@ -30,6 +30,45 @@ Create a new Angular project using the Angular CLI:
 ng new my-angular-app
 cd my-angular-app
 ```
+
+When you create a new Angular project, several files and directories are generated. Here is a brief description of some of the key files and their usage:
+
+### Project Structure
+- **e2e/**: Contains end-to-end tests for the application.
+- **node_modules/**: Contains the npm packages installed for the project.
+- **src/**: Contains the source code of the application.
+    - **app/**: Contains the main application code, including components, services, and modules.
+    - **assets/**: Contains static assets such as images and styles.
+    - **environments/**: Contains environment-specific configuration files.
+    - **index.html**: The main HTML file that loads the Angular application.
+    - **main.ts**: The main entry point for the Angular application.
+    - **polyfills.ts**: Provides polyfills for browser compatibility.
+    - **styles.css**: Global styles for the application.
+    - **angular.json**: Configuration file for Angular CLI.
+    - **package.json**: Lists the npm dependencies and scripts for the project.
+    - **tsconfig.json**: TypeScript configuration file.
+    - **tslint.json**: Configuration file for TSLint, a linting tool for TypeScript.
+
+### Usage
+- **e2e/**: Write and run end-to-end tests to ensure the application works as expected.
+- **node_modules/**: Automatically managed by npm, do not modify manually.
+- **src/**: Develop your application here by creating and organizing components, services, and other modules.
+    - **app/**: Add new components, services, and modules to build the application.
+    - **assets/**: Store images, styles, and other static files.
+    - **environments/**: Configure different settings for development, production, and other environments.
+    - **index.html**: Customize the main HTML file if needed.
+    - **main.ts**: Bootstrap the Angular application.
+    - **polyfills.ts**: Add polyfills if you need to support older browsers.
+    - **styles.css**: Add global styles for the application.
+    - **angular.json**: Configure Angular CLI settings such as build and serve options.
+    - **package.json**: Manage project dependencies and scripts.
+    - **tsconfig.json**: Configure TypeScript compiler options.
+    - **tslint.json**: Configure linting rules for TypeScript code.
+
+Understanding the purpose of these files will help you navigate and manage your Angular project more effectively.
+
+
+
 Run the development server:
 ```bash
 ng serve

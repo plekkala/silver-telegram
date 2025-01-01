@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Angular
+.angular/
+.angular-cache/
+coverage/
+tmp/
+temp/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.out
+*.bak
+*.swp
+
+# Spring and Hibernate
+target/
+*.iml
+*.ipr
+*.iws
+*.project
+*.classpath
+*.settings/
+lib/
+bin/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
